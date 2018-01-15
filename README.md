@@ -19,7 +19,7 @@ git clone https://github.com/contextscout/gcn_ner.git
 
 cd gcn_ner
 
-virtualenv --python=/usr/bin/python3 .env
+virtualenv --python=$(which python3) .env
 
 source .env/bin/activate
 
